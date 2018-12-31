@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel=stylesheet href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <title>Image Carousel</title>
+</head>
+<body>
+  <h1>
+      Every child is an artist. The problem is how to remain an artist once we grow up.
+  </h1>
+  <h3>
+      Pablo Picasso
+  </h3>
+  <p id="description">
+      Every artist dreads the feeling of his passion being a source of stress rather than a source of joy. It is near impossible to make art without compromise of some degree. I will always have the utmost respect for artists of any kind. They are some of the bravest souls alive.
+      The following is a collection of images depicting what paradise looks like to me. It's all around, and it pains me to see it overlooked and undervalued.
+    </p>
+    <p>
+      Scroll through with arrow keys, or the left and right buttons on screen, or use the play/pause button to start a slideshow.
+  </p>
+   <div class="outer-container">
+    <div class="carousel-flex">
+        <img id="lastClone" class="image" src=images/5.jpg alt="">
+        <img class="image" src="https://c2.staticflickr.com/8/7854/31603900017_7942802e58_o.jpg" alt="">
+        <img class="image" src="https://c1.staticflickr.com/5/4888/31603900217_af76b78d1c_o.jpg" alt="">
+        <img class="image" src="https://c2.staticflickr.com/8/7870/32670998528_981c1c7081_o.jpg" alt="">
+        <img class="image" src="https://c1.staticflickr.com/5/4812/31603900457_8332fc1d7e_o.jpg" alt="">
+        <img class="image" src="https://c2.staticflickr.com/8/7826/32670998788_51002c1019_o.jpg" alt="">
+        <img id="firstClone" class="image" src=images/1.jpg alt="">
+    </div>
+    <button class="button" id="prevBtn">&#8249;</button> 
+    <button class="button" id="nextBtn">&#8250;</button>
+    <button id="stateBtn">
+        <img id="play" src="https://cdn2.iconfinder.com/data/icons/media-controls-5/100/play_pause-512.png"/>
+    </button>
+    </div>
+  <script src="app.js"></script>
+</body>
+</html>
