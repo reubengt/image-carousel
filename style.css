@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px)
+{
+    .outer-container{
+        width: 90%;
+    } 
+    .carousel-flex{
+       width: 100%;
+    }
+}
+.outer-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    }
+.carousel-flex{
+    display:flex;
+    width: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#prevBtn{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 50%; 
+}
+#nextBtn{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    margin-top: -15px;
+    right: 0px;
+    border-radius: 50%; 
+}
+#stateBtn{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -35px;
+    height: 40px;
+    width: 70px;
+    border-radius: 20%;
+    font-family: 'Varela Round', sans-serif;
+}
+#play{
+    width: auto;
+}
+button{
+    text-decoration: none;
+    font-size: 120%;
+    border: none;
+    background-color: rgba(220, 220, 233, 0.8);
+    border: 2px solid grey;
+    color: black;
+    border-radius: 50%; 
+}
+h1{
+    width: 80vw;
+    text-align: justify;
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+}
+h3{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-weight:100
+}
+#description{
+    font-weight: 100;
+    font-size: 2vw;
+}
+p{
+    font-family: 'Varela Round';
+    font-size: 2.5vw;
+    margin: auto;
+    margin-top: 20px;
+     width: 80vw;
+}
+    
